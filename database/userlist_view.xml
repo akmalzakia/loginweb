@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+-
+- Sequel Pro XML dump
+- Version 5446
+-
+- https://www.sequelpro.com/
+- https://github.com/sequelpro/sequelpro
+-
+- Host: 127.0.0.1 (MySQL 8.0.20)
+- Database: userlogin
+- Generation Time Time: 2020-07-10 14:30:05 +0000
+-
+-->
+
+<resultset statement="SELECT * FROM `userlist` LIMIT 0,1000" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<row>
+		<field name="id">1</field>
+		<field name="nama">Admin</field>
+		<field name="email">admin@admin.com</field>
+		<field name="username">admin</field>
+		<field name="role">Administrator</field>
+		<field name="password">admins</field>
+		<field name="pin">000000</field>
+		<field name="kota">Malang</field>
+		<field name="negara">Indonesia</field>
+		<field name="phone">+00000000</field>
+	</row>
+
+	<row>
+		<field name="id">2</field>
+		<field name="nama">User</field>
+		<field name="email">user@user.com</field>
+		<field name="username">user</field>
+		<field name="role">User</field>
+		<field name="password">users</field>
+		<field name="pin">000001</field>
+		<field name="kota">Malang</field>
+		<field name="negara">Indonesia</field>
+		<field name="phone">+62626262</field>
+	</row>
+
+</resultset>
